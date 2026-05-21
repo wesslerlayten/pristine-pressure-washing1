@@ -4,7 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Pristine Pressure Washing</title>
+
 <style>
+
 *{
     margin:0;
     padding:0;
@@ -13,86 +15,99 @@
 }
 
 body{
-    background:#0b0b0b;
+    background:#050505;
     color:white;
     line-height:1.6;
 }
 
 header{
-    background:linear-gradient(to right,#000,#0d47a1);
-    padding:80px 20px;
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?q=80&w=1600&auto=format&fit=crop");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-align:center;
+    padding:20px;
 }
 
-header h1{
+.hero h1{
     font-size:4rem;
-    color:#4da3ff;
-    margin-bottom:10px;
+    color:#3ea6ff;
+    margin-bottom:15px;
 }
 
-header p{
+.hero p{
     font-size:1.3rem;
     color:#ddd;
+    margin-bottom:25px;
 }
 
 .btn{
     display:inline-block;
-    margin-top:25px;
-    padding:14px 28px;
-    background:#1e88e5;
+    padding:15px 30px;
+    background:#0077ff;
     color:white;
     text-decoration:none;
-    border-radius:8px;
+    border-radius:10px;
     font-weight:bold;
     transition:.3s;
 }
 
 .btn:hover{
-    background:#42a5f5;
+    background:#3399ff;
 }
 
 section{
-    padding:70px 10%;
+    padding:80px 10%;
 }
 
 .section-title{
     text-align:center;
-    font-size:2.5rem;
-    margin-bottom:40px;
-    color:#4da3ff;
+    font-size:2.8rem;
+    margin-bottom:50px;
+    color:#3ea6ff;
 }
 
 .services{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
 }
 
 .card{
-    background:#141414;
-    border:1px solid #1e88e5;
-    border-radius:15px;
+    background:#101010;
+    border:1px solid #0077ff;
+    border-radius:18px;
     overflow:hidden;
     transition:.3s;
 }
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
 }
 
 .card img{
     width:100%;
-    height:220px;
+    height:250px;
     object-fit:cover;
 }
 
 .card-content{
-    padding:20px;
+    padding:25px;
 }
 
 .card-content h3{
-    color:#4da3ff;
+    color:#3ea6ff;
     margin-bottom:10px;
+    font-size:1.7rem;
+}
+
+.card-content p{
+    color:#ddd;
 }
 
 .about{
@@ -100,19 +115,19 @@ section{
     max-width:900px;
     margin:auto;
     color:#ccc;
-    font-size:1.1rem;
+    font-size:1.2rem;
 }
 
 .contact{
-    background:#111;
-    border-top:2px solid #1e88e5;
+    background:#0d0d0d;
+    border-top:2px solid #0077ff;
     text-align:center;
 }
 
 .contact h2{
-    color:#4da3ff;
-    margin-bottom:20px;
-    font-size:2.5rem;
+    color:#3ea6ff;
+    margin-bottom:25px;
+    font-size:2.7rem;
 }
 
 .contact p{
@@ -121,84 +136,135 @@ section{
 }
 
 footer{
+    background:black;
     text-align:center;
     padding:20px;
-    background:#000;
     color:#777;
 }
 
 @media(max-width:768px){
-    header h1{
-        font-size:2.8rem;
-    }
+
+.hero h1{
+    font-size:2.7rem;
 }
+
+.section-title{
+    font-size:2rem;
+}
+
+}
+
 </style>
+
 </head>
+
 <body>
 
 <header>
+
+<div class="hero">
     <h1>Pristine Pressure Washing</h1>
-    <p>Professional Exterior Cleaning Services</p>
-    <a href="tel:3868951786" class="btn">Call Now</a>
+
+    <p>
+        Professional Exterior Cleaning For Homes & Properties
+    </p>
+
+    <a href="tel:3868951786" class="btn">
+        Call Now
+    </a>
+</div>
+
 </header>
 
 <section>
-    <h2 class="section-title">Our Services</h2>
 
-    <div class="services">
+<h2 class="section-title">Our Services</h2>
 
-        <div class="card">
-            <img src="https://perfectpowerwash.com/our-services/house-wash/concrete/" alt="Driveway Cleaning">
-            <div class="card-content">
-                <h3>Driveways</h3>
-                <p>Remove dirt, oil stains, mold, and grime to restore your driveway’s clean appearance.</p>
-            </div>
-        </div>
+<div class="services">
 
-        <div class="card">
-            <img src="https://www.blustreampw.com/blog/the-benefits-of-power-washing-your-fence/" alt="Fence Cleaning">
-            <div class="card-content">
-                <h3>Fences</h3>
-                <p>Bring old wooden and vinyl fences back to life with a deep professional clean.</p>
-            </div>
-        </div>
+<div class="card">
 
-        <div class="card">
-            <img src="https://northpennpowerwashing.com/pool-deck-cleaning/" alt="Pool Deck Cleaning">
-            <div class="card-content">
-                <h3>Pool Decks</h3>
-                <p>Keep your pool area clean, bright, and safe from slippery buildup and mildew.</p>
-            </div>
-        </div>
+<img src="image(2).png" alt="Driveway Cleaning">
 
-    </div>
+<div class="card-content">
+<h3>Driveways</h3>
+
+<p>
+Remove dirt, grime, mold, and stains to make your driveway look brand new again.
+</p>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="image(3).png" alt="Fence Cleaning">
+
+<div class="card-content">
+<h3>Fences</h3>
+
+<p>
+Restore wooden fences and remove years of buildup with a deep professional clean.
+</p>
+
+</div>
+</div>
+
+<div class="card">
+
+<img src="image(4).png" alt="Pool Deck Cleaning">
+
+<div class="card-content">
+<h3>Pool Decks</h3>
+
+<p>
+Keep pool areas clean, bright, and safe from slippery mildew and buildup.
+</p>
+
+</div>
+</div>
+
+</div>
+
 </section>
 
 <section>
-    <h2 class="section-title">Why Choose Us?</h2>
 
-    <div class="about">
-        <p>
-            At Pristine Pressure Washing, we take pride in delivering high-quality
-            exterior cleaning with reliable service and attention to detail.
-            We help homes look fresh, clean, and professionally maintained.
-        </p>
-    </div>
+<h2 class="section-title">Why Choose Us?</h2>
+
+<div class="about">
+
+<p>
+At Pristine Pressure Washing, we focus on quality work, reliable service,
+and helping homes look fresh and professionally maintained.
+We take pride in every job we complete.
+</p>
+
+</div>
+
 </section>
 
 <section class="contact">
-    <h2>Contact Us</h2>
 
-    <p><strong>Phone:</strong> 386-895-1786</p>
-    <p><strong>Email:</strong> wesslerlayten@gmail.com</p>
+<h2>Contact Us</h2>
 
-    <a href="tel:3868951786" class="btn">Get A Free Quote</a>
+<p><strong>Phone:</strong> 386-895-1786</p>
+
+<p><strong>Email:</strong> wesslerlayten@gmail.com</p>
+
+<br>
+
+<a href="tel:3868951786" class="btn">
+Get A Free Quote
+</a>
+
 </section>
 
 <footer>
-    © 2026 Pristine Pressure Washing. All Rights Reserved.
+
+© 2026 Pristine Pressure Washing — All Rights Reserved
+
 </footer>
 
 </body>
 </html>
-```
